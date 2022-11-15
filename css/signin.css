@@ -1,0 +1,154 @@
+@font-face {
+    font-family:"Neue Metana" ;
+    src: url(../Fonts/NeueMetana-Bold.otf);
+}
+
+*{
+   box-sizing: border-box; 
+}
+
+body {
+    background: url('../images/Rectangle\ 52.png');
+    background-size: cover;
+}
+
+.wrap {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    font-family: "poppins";
+    background: #fff;
+    border-radius: 10px;
+}
+
+.lo {
+    text-align: center;
+    margin-left: 15%;
+}
+
+.wrap h1 {
+    font-weight: "Neue Metana";
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5%;
+}
+
+/* button section */
+
+.btn {
+    padding: 10px;
+    width: 49%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:nth-child(1) {
+    background: brown;
+    color: white;
+}
+
+button:nth-child(2) {
+    background: blue;
+}
+
+.btn:hover {
+    background: #da32ab;
+}
+
+
+form {
+    margin-top: 30px;
+}
+
+input[type=email] ,input[type=password] ,input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 2px solid gray;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    background: #f600b2;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+} 
+
+input[type=submit]:hover {
+    color: #da3ba2;
+} 
+
+p {
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* Mobile styles goes here */
+
+@media (max-width:1028px) {
+
+    .wrap {
+        width: 300px;
+    }
+
+    .wrap h1 {
+        font-size: 1rem;
+    }
+
+
+
+    /* button section */
+
+    .btn {
+        font-size: 1rem;
+    }
+
+
+    label {
+        font-size: 10px;
+    }
+
+
+    input[type=email] ,input[type=password] ,input[type=submit] {
+        padding: 3px;
+    }
+
+    input[type=submit] {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+}

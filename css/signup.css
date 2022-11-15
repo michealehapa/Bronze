@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Neue Metana";
+    src: url(../Fonts/NeueMetana-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 10%;
+    font-family: "Neue Metana";
+    font-weight: bold;
+}
+
+
+.image{
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/images/Rectangle\ 52.png');
+}
+
+.image-overlay{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1rem;
+}
+.signup-form {
+    top: 50px;
+    color: rgb(15, 15, 15);
+    margin-bottom: 50px;
+}
+
+.signup-form {
+    font-family: "Poppins";
+    width: 400px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding:  30px;
+    margin: 1% 3% 1% ;
+    border-radius: 20px;
+}
+
+
+.input-box{
+    border-radius: 8px;
+    width: 100%;
+    margin: 20% 10%;
+    padding: 1% 5%;
+    border: 1px solid rgb(214, 205, 205);
+    outline: none;
+    height: 30px;
+}
+
+.btn {
+    border: none;
+    background-color: #f600b2;
+    color: white;
+    width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #da3ba2;
+}
+
+
+
+/* Mobile styles goes here */
+
+@media (max-width:1028px){
+    .sign-up-form{
+        width: 270px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: #fff;
+        padding: 20px 10px ;
+        margin:2% auto  ;
+        text-align: left;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+    .input-box{
+        border-radius: 8px;
+        width: 100%;
+        margin: -20px 0;
+        border: 1px solid rgb(214, 205, 205);
+        outline: none;
+    }
+    
+    }
+    button{
+        border: none;
+        background-color: #f600b2;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        outline: none;
+        align-items: center;   
+    }
+
+
+
+/* Laptop size goes here */
+
+@media (min-width:1060px){
+
+    .sign-up-form{
+        width: 600px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        background: #fff;
+        padding:  30px;
+        margin:1% 3% 1% ;
+        text-align: left;
+        border-radius: 20px;
+    }
+    .input-box{
+        border-radius: 8px;
+        width: 100%;
+        margin: -20px 0;
+        border: 1px solid rgb(214, 205, 205);
+        outline: none;
+    }
+}

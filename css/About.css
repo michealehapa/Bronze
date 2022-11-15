@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "Neue Metana";
+    src: url(../Fonts/NeueMetana-Bold.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: "Neue Metana";
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: "Neue Metana";
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 700px;
+}
+
+h3 {
+    margin-top: 1px;
+    font-family: "Neue Metana";
+    font-size: 1.5rem;
+    font-weight: 900px;
+    margin-bottom: 7%;
+ }
+
+
+/* navbar section */
+
+.navbar {
+    padding: 2% 2%;
+}
+
+.bo {
+    margin-left: 1%;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28246, 0, 178, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-brand {
+    font-family: "Poppins";
+    font-size: 3rem;
+}
+
+.nav-item {
+    overflow: auto;
+    padding: 0 0 0; 
+    
+}
+
+
+.navbar-toggler {
+    background-color: white;
+
+}
+
+.navbar-toggler:hover {
+    color: #da32ab;
+}
+
+.nav-item:hover {
+    color: #f600b2;
+}
+
+.nav-link {
+    margin-right: 50px;      
+}
+
+.nav-link:hover {
+    color: #f600b2;
+}
+
+.Eli {
+    padding-left: 10px;
+}
+
+
+
+/* Features Section */
+
+#Features {
+    text-align: center;
+    margin-top: 1px;
+    justify-content: center;
+}
+
+.features-row {
+
+    text-align: left;
+    padding: 1%  3% 2%;
+    line-height: 1;
+    font-family: "Neue Metana";
+    color: #000;
+    font-size: 5px;
+}
+
+
+.features-picture {
+    width: 25%;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    padding: 1px;
+    height: 250px;
+    border-radius: 10px;
+ }
+ 
+
+.features-pictur {
+   position: relative;
+   left: 500px;
+   bottom: 240px;
+   padding: 1px;
+   border-radius: 5px;
+}
+
+.message {
+
+    font-family: "Neue Metana";
+    font-weight: 400;
+}
+
+
+
+ 
+
+/* contact us */
+
+
+#contact {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Message {
+    font-family: "Neue Metana";
+    color: black;
+    font-weight: 900;
+}
+
+.text-area {
+    padding-left: 50px;
+}
+
+.pic{
+    width: 22%;
+    float: left;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.btn {
+    background-color: #f600b2;
+    color: white;
+    border-radius: 5px;
+    margin-top: 18px;
+    padding: 10px; 
+    border: none;
+    cursor: pointer; 
+   
+}
+
+.btn:hover {
+    color: #da32ab;
+}
+
+
+
+
+/* footer section */
+
+
+.bottom-container {
+    width: 100vw;
+    height: 80vh;
+    background: url('../images/Rectangle\ 11.png');
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lo {  
+    margin: 12% 20% 5%;
+    padding-left: 5%;
+}
+
+p {
+    margin-top: 70px;
+    font-family: "Poppins";
+}
+
+.last {
+    margin-top: 1%;
+}
+
+
+
+
+/* Mobile styles goes here */
+
+@media (max-width:1028px){
+
+    /* navbar section */
+
+    .bo {
+        width: 60%;
+        margin: 3%;
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+
+    
+    /* features section */
+
+    .features-row {
+        align-items: center;
+        text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+
+     h2 {
+            text-align: center;
+            justify-content: center;
+        }
+
+    .features-picture {
+       width: 75%;
+       align-self: center;
+       position: static;
+       margin-left: 10px; 
+       padding: 1px;
+     }
+
+      
+   .features-pictur {
+
+      width: 75%;
+      height: 100%;
+      align-self: center;
+      position: static;
+      margin-left: 10px;
+      padding: 1px; 
+   }
+
+
+
+    
+
+
+   /* contact section */
+
+   .pic {
+    display: none;
+   }
+
+
+   /* footer section */
+
+   .lo {
+    padding-bottom: 5%;
+   }
+
+   h3 {
+    font-size: 1rem;
+    margin-top: 5%;
+   }
+
+   .last {
+    font-size: 0.9rem;
+    margin-top: 20%;
+   }
+
+
+} 
+
+
+
+
+
+
+/* Laptop styles goes here */
+
+@media (min-width:1030px) {
+
+    #Features{
+        text-align: center;
+        margin-top: 1px;
+    }
+    .features-row {
+        text-align: left;
+        padding: 1%  3% 2%;
+        line-height: 1;
+        font-family: "Neue Metana";
+        color: #000;
+        font-size: 5px;
+    }
+    .features-picture{
+        position: relative;
+        left: 290px;
+        bottom: 200px;
+        padding: 1px;
+     }
+
+    .features-pictur {
+       position: relative;
+       left: 400px;
+       bottom: 240px;
+       padding: 1px;
+    }
+
+    .message {
+       font-family: url(../fonts/NeueMetana-Regular.otf);
+       font-weight: 400;
+    }
+    
+}
